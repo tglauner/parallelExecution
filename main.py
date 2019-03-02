@@ -5,24 +5,33 @@ from multiprocessing import Pool
 
 print 'main.py Start'
 
-def exec1():
-	os.system('process1.cmd')
-	time.sleep(5)
-	return 0
-def exec2():
-	os.system('process2.cmd')
-	return 0
-def exec3():
-	os.system('process3.cmd')
+def exec10():
+	return os.system('G:\\FRTB\\IMA\\batch\\runES10.cmd')
+
+def exec20():
+	return os.system('G:\\FRTB\\IMA\\batch\\runES20.cmd')
+
+def exec40():
+	return os.system('G:\\FRTB\\IMA\\batch\\runES40.cmd')
+
+def exec60():
+	return os.system('G:\\FRTB\\IMA\\batch\\runES60.cmd')
+
+def exec120():
+	return os.system('G:\\FRTB\\IMA\\batch\\runES120.cmd')
 
 if __name__ == '__main__':
-	time.sleep(1)
-	pool = Pool(processes=4)              # start 4 worker processes
-	time.sleep(1)
-	result1 = pool.apply_async(exec1)
-	result2 = pool.apply_async(exec2)
+	pool = Pool(processes=8)              # start worker processes
+	result10 = pool.apply_async(exec10)
+	result20 = pool.apply_async(exec20)
+	result40 = pool.apply_async(exec40)
+	result60 = pool.apply_async(exec60)
+	result120 = pool.apply_async(exec120)
 	
-	print result1.get(timeout=10)           # prints "100" unless your computer is *very* slow
-	print result2.get(timeout=10)           # prints "100" unless your computer is *very* slow
+	print result10.get()          
+	print result20.get()          
+	print result40.get()          
+	print result60.get()          
+	print result120.get()          
 	
 print 'main.py Done'

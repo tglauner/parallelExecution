@@ -1,0 +1,58 @@
+
+G:\FRTB\IMA\batch\parallelExecution>ECHO OFF 
+"Running Expected Shortfalls for 10D ..."
+
+G:\FRTB\IMA\batch\parallelExecution>ECHO OFF 
+"Running Expected Shortfalls for 20D ..."
+
+G:\FRTB\IMA\batch\parallelExecution>ECHO OFF 
+
+G:\FRTB\IMA\batch\parallelExecution>ECHO OFF 
+
+G:\FRTB\IMA\batch\parallelExecution>ECHO OFF 
+"Running Expected Shortfalls for 60D ..."
+"Running Expected Shortfalls for 40D ..."
+"Running Expected Shortfalls for 120D ..."
+"Run time 10D:", "Start", 23:57:45.38, "End", 23:58:05.48
+"Copying 10D from 10.21.182.45 to nyccswbsge0026 ..."
+G:\SummitV60\spool\hvar_RGRP_FRTB_3DESKS_10D_MGR.xml
+        1 file(s) copied.
+"Run time 20D:", "Start", 23:57:45.46, "End", 23:58:07.48
+"Copying 20D from 10.21.182.45 to nyccswbsge0026 ..."
+G:\SummitV60\spool\hvar_RGRP_FRTB_3DESKS_20D_MGR.xml
+        1 file(s) copied.
+"Run time 40D:", "Start", 23:57:45.52, "End", 23:58:09.75
+"Copying 40D from 10.21.182.45 to nyccswbsge0026 ..."
+G:\SummitV60\spool\hvar_RGRP_FRTB_3DESKS_40D_MGR.xml
+        1 file(s) copied.
+"Run time 120D:", "Start", 23:57:45.54, "End", 23:58:11.66
+"Copying 120D from 10.21.182.45 to nyccswbsge0026 ..."
+G:\SummitV60\spool\hvar_RGRP_FRTB_3DESKS_120D_MGR.xml
+        1 file(s) copied.
+"Run time 60D:", "Start", 23:57:45.52, "End", 23:58:14.17
+"Copying 60D from 10.21.182.45 to nyccswbsge0026 ..."
+G:\SummitV60\spool\hvar_RGRP_FRTB_3DESKS_60D_MGR.xml
+        1 file(s) copied.
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+main.py Done
+main.py Start
+0
+0
+0
+0
+0
+main.py Done
